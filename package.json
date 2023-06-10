@@ -1,0 +1,34 @@
+{
+  "name": "open-telegram-bot",
+  "version": "1.0.0",
+  "description": "Automatically generated Telegram Bot API Wrapper",
+  "type": "module",
+  "main": "/dist/index.js",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "generate": "node src/index.js",
+    "generate:local": "MODE=LOCAL node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mainarthur/open-telegram-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "api",
+    "wrapper"
+  ],
+  "author": "masterartur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mainarthur/open-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/mainarthur/open-telegram-bot#readme",
+  "dependencies": {
+    "node-html-parser": "^6.1.5",
+    "undici": "^5.22.1"
+  }
+}
